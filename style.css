@@ -4,3 +4,55 @@
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
 }
+
+header{
+    width: 100%;
+    height: 5vw;
+    background-color: green;
+    z-index: 2;
+    position: relative;
+}
+
+#container{
+    width: 100%;
+    height: 50vw;
+    background-color: gray;
+}
+
+#contend{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2vw;
+    background-color: red;
+}
+
+#banner{
+    width: 95%;
+    height: 22vw;
+    margin-bottom: 1vw;
+    background-color: blue;
+}
+
+#first-cont{
+    width: 95%;
+    height: 40vw;
+    background-color: yellow;
+}
+
+#fst-cnt-img{
+    width: 80%;
+    height: 40vw;
+    background-color: blueviolet;
+}
+
+#fst-cnt-sidebar{
+    width: 20%;
+    height: 40vw;
+    background-color: purple;
+}
+
+
+.flex{
+    display: flex;
+}
+
