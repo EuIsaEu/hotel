@@ -15,14 +15,16 @@ header{
 
 #container{
     width: 100%;
-    height: 50vw;
+    height: auto;
     background-color: gray;
+    flex-direction: column;
 }
 
 #contend{
     width: 100%;
     height: auto;
     padding-bottom: 2vw;
+    padding-top: 1vw;
     background-color: red;
 }
 
@@ -40,13 +42,13 @@ header{
 }
 
 #fst-cnt-img{
-    width: 80%;
+    width: 71%;
     height: 40vw;
     background-color: blueviolet;
 }
 
 #fst-cnt-sidebar{
-    width: 20%;
+    width: 30%;
     height: 40vw;
     background-color: purple;
 }
