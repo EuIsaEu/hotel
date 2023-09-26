@@ -6,17 +6,29 @@
 }
 
 header{
-    width: 100%;
+    width: 96%;
     height: 5vw;
-    background-color: green;
-    z-index: 2;
-    position: relative;
+    align-items: center;
+    padding: 0% 2% 0% 2%;
+}
+
+#logo{
+    width: 20%;
+    height: 1.5vw;
+    margin-left: 0;
+    background-color:#c7c7c7;
+}
+
+#menu{
+    width: 15%;
+    height: 2.5vw;
+    margin-right: 0;
+    background-color:#c7c7c7;
 }
 
 #container{
     width: 100%;
     height: auto;
-    background-color: gray;
     flex-direction: column;
 }
 
@@ -24,33 +36,50 @@ header{
     width: 100%;
     height: auto;
     padding-bottom: 2vw;
-    padding-top: 1vw;
-    background-color: red;
 }
 
 #banner{
     width: 95%;
     height: 22vw;
-    margin-bottom: 1vw;
-    background-color: blue;
+    margin-bottom: 2vw;
+    background-color: #7ca7ad;
 }
 
 #first-cont{
     width: 95%;
-    height: 40vw;
-    background-color: yellow;
+    min-height: 40vw;
+    height: auto;
 }
 
 #fst-cnt-img{
     width: 71%;
-    height: 40vw;
-    background-color: blueviolet;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 #fst-cnt-sidebar{
     width: 30%;
-    height: 40vw;
-    background-color: purple;
+    min-height: 40vw;
+    height: auto;
+    flex-direction: column;
+}
+
+#oferta-maior{
+    width:100%;
+    margin-bottom: 4vw;
+}
+
+#oferta-maior-img{
+    width:100%;
+    height: 20vw;
+    margin-bottom: 2%;
+    background-color:#c7c7c7;
+}
+
+#oferta-maior-text p{
+    font-size: 2vw;
+    font-weight: 500;
+    text-align: center;
 }
 
 
@@ -58,3 +87,46 @@ header{
     display: flex;
 }
 
+.oferta{
+   width: 40%;
+   height: 20vw;
+   margin: 0 10% 3% 0;
+}
+
+.oferta-img{
+    width: 100%;
+    height: 15vw;
+    margin-bottom: 2%;
+    background-color: #bfa19b;
+}
+
+.oferta-text{
+    width: 100%;
+    height: 5vw; 
+}
+
+.oferta-text p{
+    font-size: 1.5vw;
+}
+
+.oferta-mini{
+    width: 100%;
+    margin-bottom: 1.5vw;
+    align-items: center;
+}
+
+.oferta-mini-img{
+    width: 5vw;
+    height: 5vw;
+    margin-left: 0;
+    background-color:#c7c7c7;
+}
+
+.oferta-mini-text{
+    width: 78%;
+    height: 3vw; 
+}
+
+.oferta-mini-text p{
+    font-size: 1.2vw;
+}
