@@ -3,67 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/takodachi.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Hotel</title>
 </head>
 <body>
     <div id="container" class="flex">
         <header class="flex">
-            <div id="logo"></div>
-            <nav id="menu"></nav>
+            <div id="logo">
+                <a href="">Ina'nis Hoteis</a>
+            </div>
+            <nav id="menu">
+                <a href="index.html">Home</a>
+                <a href="">Sobre nós</a>
+                <a href="">Nossas sedes</a>
+                <a href="form.html">Carrinho</a>
+            </nav>
         </header>
         <div id="contend">
-            <div id="banner"></div>
+            <div id="banner">
+                <img src="img/banner.png" alt="">
+            </div>
             <div id="first-cont" class="flex">
                 <div id="fst-cnt-img" class="flex">
-                    <div class="oferta">
-                        <div class="oferta-img"></div>
+                    <div class="oferta" data-local="paris">
+                        <div class="oferta-img">
+                            <p class="preco">R$ 5000,00</p>
+                            <img src="img/paris.png" alt="paris">
+                        </div>
                         <div class="oferta-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Hotel 3 estrelas em Paris</p>
+                            <span class="carrinho">Clique e adicione no carrinho</span>
                         </div>
                     </div>
-                    <div class="oferta">
-                        <div class="oferta-img"></div>
+                    <div class="oferta" data-local="marte">
+                        <div class="oferta-img">
+                            <p class="preco">R$ 40.000,00</p>
+                            <img src="img/marte.png" alt="marcianos">
+                        </div>
                         <div class="oferta-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Hotel 5 estrelas em Marte</p>
+                            <span class="carrinho">Clique e adicione no carrinho</span>
                         </div>
                     </div>
-                    <div class="oferta">
-                        <div class="oferta-img"></div>
+                    <div class="oferta" data-local="rio">
+                        <div class="oferta-img">
+                            <p class="preco">R$ 1,99</p>
+                            <img src="img/rio-de-janeiro.png" alt="RJ">
+                        </div>
                         <div class="oferta-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Hotel -10 estrelas em Copacabana</p>
+                            <span class="carrinho">Clique e adicione no carrinho</span>
                         </div>
                     </div>
-                    <div class="oferta">
-                        <div class="oferta-img"></div>
+                    <div class="oferta" data-local="DC">
+                        <div class="oferta-img">
+                            <p class="preco">US$ 50,00</p>
+                            <img src="img/washington.png" alt="washington">
+                        </div>
                         <div class="oferta-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Hotel 1 estrelas em Washington-DC</p>
+                            <span class="carrinho">Clique e adicione no carrinho</span>
                         </div>
                     </div>
                 </div>
                 <div id="fst-cnt-sidebar" class="flex">
                     <div id="oferta-maior">
-                        <div id="oferta-maior-img"></div>
+                        <div id="oferta-maior-img">
+                            <img src="img/cuba-vacation.png" alt="ferias em cuba">
+                        </div>
                         <div id="oferta-maior-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Passe férias maravilhosas nas incríveis praias de Cuba</p>
                         </div>
                     </div>
                     <div class="oferta-mini flex">
-                        <div class="oferta-mini-img"></div>
+                        <div class="oferta-mini-img">
+                            <img src="./img/insta.png" alt="">
+                        </div>
                         <div class="oferta-mini-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Nos siga no Instagram!</p>
                         </div>
                     </div>
                     <div class="oferta-mini flex">
-                        <div class="oferta-mini-img"></div>
+                        <div class="oferta-mini-img">
+                            <img src="./img/face.png" alt="">
+                        </div>
                         <div class="oferta-mini-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Nos siga no Facebook!</p>
                         </div>
                     </div>                    
                 </div>
             </div>
         </div>
-        <footer></footer>
+        <footer>
+            <script src="script.js"></script>
+        </footer>
     </div>
 </body>
 </html>

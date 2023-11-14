@@ -1,0 +1,88 @@
+h1{
+    font-size: 3vw;
+}
+
+h2{
+    font-size: 2.3vw;
+}
+
+h3{
+    font-size: 1.8vw;
+}
+
+#form{
+    width: 96%;
+    padding: 1% 2%;
+    height: auto;
+    /* background-color: green; */
+}
+
+#intro{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2vw;
+}
+
+#carrinho-compra{
+    font-size: 1.5vw;
+}
+
+#dados-pessoais{
+    width: 100%;
+    height: 10vw;
+    margin-bottom: 2vw;
+    /* background-color: red; */
+}
+
+#endereco{
+    width: 100%;
+    margin-bottom: 3vw;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#confirma-button{
+    width: 25vw;
+    height: 5vw;
+    box-shadow: 0px 5px 7px -2px #51325e;
+	background:linear-gradient(to bottom, var(--cor-roxa) 5%, #5a215b 100%);
+	background-color:var(--cor-roxa);
+	border-radius: 0.8vw;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 1.5vw;
+	font-weight:bold;
+	padding: 1vw 2vw;
+	text-decoration:none;
+    transition: top 600ms ease-in;
+}
+
+#confirma-button:hover{
+    background:linear-gradient(to bottom, #5a215b 5%, var(--cor-roxa) 100%);
+}
+
+#confirma-button:active{
+    position:relative;
+	top:1px;
+}
+
+#clausula{
+    font-size: 1.2vw;
+}
+
+.input-css{
+    height: 2vw;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+    border-width: 0.1vw;
+    margin-right: 0.5vw;
+    margin-bottom: 1vw;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0.5vw;
+    box-shadow: 0px 0px 0.3vw rgba(66,66,66,.75);
+}
